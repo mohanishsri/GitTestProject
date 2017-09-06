@@ -8,14 +8,9 @@ namespace ConsoleApplication1
 {
     class Feature1
     {
-        public int methodsum()
+        public int methodsum(int a, int b)
         {
-            int a=1;
-            int b=2;
-
-            int x = a+b;
-
-            return x;
+             return a+b;
         }
     }
 }
